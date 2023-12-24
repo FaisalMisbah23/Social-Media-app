@@ -771,7 +771,14 @@ flex-direction: column;
         display: flex;
         flex-direction: row;
     }
+
   }
   
+  @media (max-width: 399px){
+  /* .profile-btn{
+    display: flex;
+
+  } */
+  }
   /* Add any additional media queries for larger screens if needed */
   

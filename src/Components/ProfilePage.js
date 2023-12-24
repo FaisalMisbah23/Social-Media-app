@@ -484,7 +484,9 @@ document.title="Profile Page"
                           <div className="profile-header-info">
                             <h4 className="m-t-10 m-b-5">{props.name}</h4>
                             <p className="m-b-10">{props.userName}</p>
-                            <a
+
+                          <div className="profile-btn">
+                          <a
                               href="/createprofie"
                               className="btn btn-sm btn-info mb-2"
                             >
@@ -493,6 +495,7 @@ document.title="Profile Page"
                             <button onClick={props.handleFollow} className="btn btn-sm btn-info mb-2 ms-2" >
                               {props.manageFollow}
                             </button>
+                          </div>
                           </div>
                           {/* END profile-header-info */}
                         </div>
@@ -965,7 +968,7 @@ document.title="Profile Page"
                         </button>
                        
                       </div>
-                      <div className="col">
+                      {/* <div className="col">
                         <a
                           href="#"
                           className="text-body text-opacity-50 text-decoration-none d-block p-2"
@@ -974,7 +977,7 @@ document.title="Profile Page"
                           <i className="far fa-comment me-1 d-block d-sm-inline" />{" "}
                           Comment{" "}
                         </a>
-                      </div>
+                      </div> */}
                       <div className="col">
                         <a
                           href="#"
@@ -1150,7 +1153,7 @@ document.title="Profile Page"
                         {" "} Like {" "}
                         </button>
                       </div>
-                      <div className="col">
+                      {/* <div className="col">
                         <a
                           href="#"
                           className="text-body text-opacity-50 text-decoration-none d-block p-2"
@@ -1159,7 +1162,7 @@ document.title="Profile Page"
                           <i className="far fa-comment me-1 d-block d-sm-inline" />{" "}
                           Comment{" "}
                         </a>
-                      </div>
+                      </div> */}
                       <div className="col">
                         <a
                           href="#"

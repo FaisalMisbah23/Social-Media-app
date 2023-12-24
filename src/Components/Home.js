@@ -834,7 +834,7 @@ const Home = (props) => {
                           Like{" "}
                         </button>
                       </div>
-                      <div className="col">
+                      {/* <div className="col">
                         <a
                           href="#"
                           className="text-body text-opacity-50 text-decoration-none d-block p-2"
@@ -843,7 +843,7 @@ const Home = (props) => {
                           <i className="far fa-comment me-1 d-block d-sm-inline" />{" "}
                           Comment{" "}
                         </a>
-                      </div>
+                      </div> */}
                       <div className="col">
                         <a
                           href="#"
@@ -1031,7 +1031,7 @@ const Home = (props) => {
                           Like{" "}
                         </button>
                       </div>
-                      <div className="col">
+                      {/* <div className="col">
                         <a
                           href="#"
                           className="text-body text-opacity-50 text-decoration-none d-block p-2"
@@ -1040,7 +1040,7 @@ const Home = (props) => {
                           <i className="far fa-comment me-1 d-block d-sm-inline" />{" "}
                           Comment{" "}
                         </a>
-                      </div>
+                      </div> */}
                       <div className="col">
                         <a
                           href="#"
